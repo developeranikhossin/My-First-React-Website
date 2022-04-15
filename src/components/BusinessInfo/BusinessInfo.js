@@ -1,24 +1,24 @@
 import React from 'react';
+// import { faClock, faMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
 import Info from '../InfoCard/InfoCard';
-import { faClock, faMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const infosData = [
     {
         title: 'Opening Hours',
         description: 'We are open 7 Days',
-        icon: faClock,
+        // icon: faClock,
         background: 'primary'
     },
     {
         title: 'Visit Our Location',
         description: 'Brooklyn, NY 1000, USA',
-        icon: faMarker,
+        // icon: faMarker,
         background: 'dark'
     },
     {
         title: 'Call Us Now',
         description: '+15434342424',
-        icon: faPhone,
+        // icon: faPhone,
         background: 'primary'
     }
 ]

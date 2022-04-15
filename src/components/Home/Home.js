@@ -1,12 +1,13 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
-
+import Header from '../Header/Header';
+import Services from '../services/Services';
 
 
 const Home = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div>          
+        <Header></Header>
+          <Services></Services>
         </div>
     );
 };

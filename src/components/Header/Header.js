@@ -1,17 +1,16 @@
 import React from 'react';
-// import BusinessInfo from '../BusinessInfo/BusinessInfo';
-
 import HeaderMain from '../HeaderMain/HeaderMain';
-import Home from '../Home/Home';
+import Navbar from '../Navbar/Navbar';
 import './Header.css'
+import BusinessInfo from '../BusinessInfo/BusinessInfo';
 
 
 const Header = () => {
     return (
         <div className='Header-container'>
-            <Home></Home>
+            <Navbar></Navbar>
             <HeaderMain></HeaderMain>
-            {/* <BusinessInfo></BusinessInfo> */}
+            <BusinessInfo></BusinessInfo>
         </div>
     );
 };
